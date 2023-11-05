@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shipment Manager</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <h1>Shipment Manager</h1>
+    <image src="logo1.png"></image>
+    <h2>ONE STOP SOLUTION TO YOUR SUPPLY CHAIN BUSINESS</h2>
+
+    <div>
+        <h2>Create Shipment</h2>
+        <label for="sender">Sender:</label>
+        <input type="text" id="sender" />
+        <br>
+        <label for="receiver">Receiver:</label>
+        <input type="text" id="receiver" />
+        <br>
+        <button id="createShipmentButton">Create Shipment</button>
+
+    </div>
+
+    <div>
+        <h2>Deliver Shipment</h2>
+        <label for="shipmentIndex">Shipment Index:</label>
+        <input type="number" id="shipmentIndex" />
+        <br>
+        <br> <!-- Add an extra line break for a vertical gap -->
+        <button id="deliverShipmentButton">Deliver Shipment</button>
+    </div>
+
+    <div>
+        <h2>Get Shipments</h2>
+        <label for="senderFilter">Sender:</label>
+        <input type="text" id="senderFilter" />
+        <br>
+        <label for="receiverFilter">Receiver:</label>
+        <input type="text" id="receiverFilter" />
+        <br>
+        <button id="getShipmentButton">Get Shipments</button>
+    </div>
+
+    <div id="result"></div>
+    <footer>
+        &copy; 2023 BLOCKTECH PVT LIMITED. All rights reserved.
+    </footer>
+
+    
+    <script src="index.js"></script>
+    
+</body>
+</html>
